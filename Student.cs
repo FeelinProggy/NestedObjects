@@ -25,6 +25,6 @@ namespace NestedObjects
 
         public string PhoneNumber { get; set; }
 
-
+        public Advisor AssignedAdvisor { get; set; }
     }
 }
