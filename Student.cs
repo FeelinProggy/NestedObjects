@@ -14,7 +14,7 @@ namespace NestedObjects
         public string FirstName { get; set; }
 
         /// <summary>
-        ///Legal First name
+        ///Legal Last name
         /// </summary>
         public string LastName { get; set; }
 
@@ -23,8 +23,19 @@ namespace NestedObjects
         /// </summary>
         public string SchoolEmail { get; set; }
 
+        /// <summary>
+        /// Student's date of birth
+        /// </summary>
+        public DateOnly DateOfBirth { get; set; }
+
+        /// <summary>
+        /// Student's preferred contact number
+        /// </summary>
         public string PhoneNumber { get; set; }
 
+        /// <summary>
+        /// Student's assigned advisor
+        /// </summary>
         public Advisor AssignedAdvisor { get; set; }
     }
 }
