@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NestedObjects
 {
-    internal class Advisor
+    public class Advisor
     {
         /// <summary>
         /// Legal first and
